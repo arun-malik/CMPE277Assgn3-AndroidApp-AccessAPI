@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMPE 277 - Assignment 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intent_sahring_data">IntentSahringDataActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second_intent_sharing">SecondIntentSharingActivity</string>
+
+</resources>

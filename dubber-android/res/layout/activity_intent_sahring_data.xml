@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".IntentSahringDataActivity" >
+
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:text="First Name" />
+
+    <EditText
+        android:id="@+id/edtCreditCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtLastName"
+        android:layout_below="@+id/edtLastName"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+         android:text="Last Name"/>
+
+    <EditText
+        android:id="@+id/edtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edtCreditCardNumber"
+        android:layout_below="@+id/edtCreditCardNumber"
+        android:layout_marginTop="35dp"
+        android:ems="10" 
+        android:text="Credit Card Number">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtFirstName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Process" />
+
+</RelativeLayout>
